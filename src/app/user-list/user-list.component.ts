@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { UserService} from '../services/user.service';
-import { User } from '../models/user.model'; // Update import path
+import { User } from '../models/user.model'; 
 import { RouterModule } from '@angular/router';
 
 @Component({

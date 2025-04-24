@@ -8,7 +8,6 @@ h1 {
     text-align: center;
 }
 
-/* Table Styles */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -36,7 +35,6 @@ tr:hover {
   background-color: rgba(25, 118, 210, 0.05);
 }
 
-/* Action Button */
 .action-btn {
   display: inline-block;
   padding: 0.5rem 1rem;
@@ -54,7 +52,7 @@ tr:hover {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Loading and Error States */
+
 .loading,
 .error,
 .empty {
@@ -71,7 +69,6 @@ tr:hover {
   border-left: 4px solid var(--error-color);
 }
 
-/* Responsive Table */
 @media (max-width: 768px) {
   table {
     display: block;

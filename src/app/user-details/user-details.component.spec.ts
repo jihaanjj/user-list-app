@@ -52,7 +52,7 @@ describe('UserDetailsComponent', () => {
     
     const compiled = fixture.nativeElement;
     
-    // Verifikasi data dasar user
+    // Verifikasi data user
     expect(compiled.textContent).toContain(mockUser.name);
     expect(compiled.textContent).toContain(mockUser.email);
     expect(compiled.textContent).toContain(mockUser.phone);

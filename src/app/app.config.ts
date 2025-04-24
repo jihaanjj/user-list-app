@@ -5,8 +5,8 @@ import { routes } from './app.routes';
 
 export const appConfig: ApplicationConfig = {
   providers: [
-    provideZoneChangeDetection({ eventCoalescing: true }), // Opsional (untuk optimasi)
-    provideRouter(routes), // Wajib (jika pakai router)
-    provideHttpClient(), // Wajib (jika pakai HttpClient)
+    provideZoneChangeDetection({ eventCoalescing: true }), 
+    provideRouter(routes), 
+    provideHttpClient(), 
   ]
 };

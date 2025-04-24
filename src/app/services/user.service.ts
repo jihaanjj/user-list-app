@@ -1,8 +1,7 @@
-// src/app/services/user.service.ts
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, catchError, delay, of } from 'rxjs';
-import { User } from '../models/user.model'; // Update import path
+import { User } from '../models/user.model'; 
 
 @Injectable({
   providedIn: 'root'

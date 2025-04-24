@@ -49,7 +49,6 @@
     min-width: 120px;
   }
   
-  /* Responsive Styles */
   @media (max-width: 600px) {
     .detail-row {
       flex-direction: column;

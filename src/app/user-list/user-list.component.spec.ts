@@ -38,7 +38,6 @@ describe('UserListComponent', () => {
   });
 
   it('should display users in table', () => {
-    // Set data langsung ke komponen
     component.users = mockUsers;
     component.isLoading = false;
     fixture.detectChanges();
